@@ -1,9 +1,9 @@
 class HomeScreen < Testmunk::Android::Screen
 
-  view :carousel, {id:'slide_date'}
+  view :picker, {id:'yvo_toolbar'}
 
   def traits
-    carousel
+    picker
   end
 
 end
